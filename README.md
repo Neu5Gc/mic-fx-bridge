@@ -4,6 +4,12 @@ First public beta for Windows.
 
 A free Windows app for sending your microphone through up to eight VST3 effects to Discord, OBS, and other voice apps.
 
+Originally built for my own setup and used personally for a long time; now shared as a first public beta.
+
+![Mic FX Bridge 0.4.5 with an example VST3 chain](release/assets/mic-fx-bridge-0.4.5.png)
+
+Example setup. The third-party plugins shown are installed separately and are not included.
+
 **[Official downloads](https://github.com/Neu5Gc/mic-fx-bridge/releases)** · [Report a problem](https://github.com/Neu5Gc/mic-fx-bridge/issues)
 
 This repository's **GitHub Releases page is the only official distribution channel** for Mic FX Bridge. Other download sites and reuploads are unofficial.
@@ -77,6 +83,8 @@ No account, telemetry or cloud upload. [MIT License](LICENSE) applies to origina
 이번 버전은 Mic FX Bridge의 첫 공개 베타입니다.
 
 마이크에 최대 8개의 VST3 효과를 적용해 디스코드·OBS 등으로 보내는 무료 Windows 프로그램입니다. Windows 10/11 64비트용이며 앱 화면은 영어입니다. VST3 플러그인과 [VB-CABLE](https://vb-audio.com/Cable/) 같은 가상 오디오 케이블은 따로 설치합니다.
+
+제 개인 세팅에 쓰려고 만들어 오래 사용해 오던 프로그램을 이번에 첫 공개 베타로 공유합니다. 위 스크린샷은 실제 사용 예시이며, 화면에 나온 외부 플러그인은 프로그램에 포함되지 않습니다.
 
 **[이 저장소의 Releases](https://github.com/Neu5Gc/mic-fx-bridge/releases)가 유일한 공식 배포처입니다.** 다른 사이트의 재배포는 비공식입니다.
 
