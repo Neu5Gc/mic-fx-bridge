@@ -13,7 +13,7 @@ Windows 10/11 x64, 64-bit VST3 plugins, and a virtual audio cable such as [VB-CA
 1. Get the ZIP from [Releases](https://github.com/Neu5Gc/mic-fx-bridge/releases), extract it, and run `Mic FX Bridge.exe`.
 2. Select your microphone under **WASAPI microphone input** and choose its input channel.
 3. Select **CABLE Input** under **Virtual microphone output**.
-4. Add your VST3 effects, then enable **Run bridge** and **Auto-recover**.
+4. Add your VST3 effects. **Run bridge** and **Auto-recover** are on by default on first launch; later launches restore saved choices.
 5. Select **CABLE Output** as the microphone in Discord, OBS, or your other app.
 
 ## Settings
@@ -25,6 +25,8 @@ Settings stay in `%APPDATA%\MicVstBridge\MicVstBridge.settings`, even when you m
 ## Audio controls
 
 **Reconnect audio** reopens both selected devices. **Refresh device list** updates the selectors. Automatic recovery handles input and output independently.
+
+**Run bridge** starts/stops audio; **Auto-recover** retries device failures while running. Both default to on. **Browse VSTs / Add / Replace** select effects. **Bypass** skips one effect; **Edit** opens its controls; **↑ / ↓** reorder; **Remove** deletes it from the chain. **Save settings / Load settings** save or restore a full device/FX snapshot. In the VST browser, **Rescan** refreshes results, **Add Folder** adds a search path, **Select File** picks a VST3 directly, **Load Selected VST** loads it and **Close** closes the browser.
 
 ## Meters
 
@@ -38,7 +40,7 @@ Built-in microphone measurement and correction were removed in 0.4.4. Old correc
 
 This beta is unsigned; Windows may show a SmartScreen warning. **The [GitHub Releases page](https://github.com/Neu5Gc/mic-fx-bridge/releases) is the only official distribution channel.** Other sites and reuploads are unofficial. If downloaded elsewhere, compare the file's SHA256 with the checksum on that official release before running it. Obtain the reference checksum from GitHub, not from the other download site. Do not run a file whose hash differs.
 
-In PowerShell, run `Get-FileHash -Algorithm SHA256 -LiteralPath '.\Mic-FX-Bridge-0.4.5-beta.1-windows-x64-en.zip'` and compare all 64 characters with the official `.sha256` file. The release also lists the EXE hash. A match verifies identical bytes, not a security audit. Third-party plugins run inside the app and can crash it. Device/driver/plugin compatibility varies.
+The program is distributed as one Windows ZIP, with one published SHA256 for that ZIP. In PowerShell, run `Get-FileHash -Algorithm SHA256 -LiteralPath '.\Mic-FX-Bridge-0.4.5-beta.1-windows-x64-en.zip'` and compare all 64 characters with the official ZIP checksum. A match verifies identical bytes, not a security audit. Third-party plugins run inside the app and can crash it. Device/driver/plugin compatibility varies.
 
 [Report a problem](https://github.com/Neu5Gc/mic-fx-bridge/issues) with the app/plugin versions and steps to reproduce. Do not attach private recordings or unredacted settings.
 
