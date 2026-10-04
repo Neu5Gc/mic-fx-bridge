@@ -1,0 +1,8 @@
+/.deps/
+/.cache/
+/build/
+/build-*/
+/dist/
+/.vs/
+*.user
+*.suo

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-label="Mic FX Bridge">
+  <rect x="48" y="48" width="928" height="928" rx="196" fill="#101B2C"/>
+
+  <rect x="365" y="222" width="294" height="466" rx="147" fill="#F3F6FB"/>
+
+  <path
+    d="M 294 458 V 541 A 218 218 0 0 0 730 541 V 458"
+    fill="none"
+    stroke="#4D6A87"
+    stroke-width="78"
+    stroke-linecap="round"
+    stroke-linejoin="round"/>
+</svg>

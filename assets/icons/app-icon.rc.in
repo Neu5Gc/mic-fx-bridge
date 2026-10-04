@@ -1,0 +1,5 @@
+#pragma code_page(65001)
+
+// JUCE uses the first two icon groups for the native window's large/small icons.
+IDI_ICON1 ICON DISCARDABLE "@MIC_VST_BRIDGE_APP_ICON@"
+IDI_ICON2 ICON DISCARDABLE "@MIC_VST_BRIDGE_APP_ICON@"
